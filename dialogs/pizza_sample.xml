@@ -4,13 +4,13 @@
         <folder label="Main">
             <output>
                 <prompt selectionType="RANDOM">
-                    <item>Hi, I'm Watson! I can help you order a pizza, what size would you like?</item>
+                    <item>Hi, I'm Watson! What's the problem of the machine?</item>
                 </prompt>
                 <goto ref="getUserInput_2442994"/>
             </output>
             <output>
                 <prompt selectionType="SEQUENTIAL">
-                    <item>What size would you like?</item>
+                    <item>What's the problem?</item>
                 </prompt>
                 <getUserInput id="getUserInput_2442994">
                     <search ref="folder_2442998"/>
